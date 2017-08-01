@@ -1,0 +1,24 @@
+{
+  "name": "todo_list_nodejs",
+  "version": "1.0.0",
+  "description": "todo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielKanyo/Todo_list_nodeJS.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielKanyo/Todo_list_nodeJS/issues"
+  },
+  "homepage": "https://github.com/DanielKanyo/Todo_list_nodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3"
+  }
+}
