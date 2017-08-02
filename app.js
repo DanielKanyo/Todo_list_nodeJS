@@ -7,7 +7,7 @@ var app = express();
 
 //set up template engine
 //the project knows that we gonna use ejs for our templates
-app.set('view egine', 'ejs'); 
+app.set('view engine', 'ejs'); 
 
 //static files
 //middleware
