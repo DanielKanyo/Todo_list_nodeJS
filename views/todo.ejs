@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="/assets/reset.min.css" rel="stylesheet" type="text/css" />
   <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+  <script src="/assets/todo-list.js"></script>
 </head>
 
 <body>
@@ -17,9 +18,9 @@
       <button type="submit" class="material-icons">done</button>
     </form>
     <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
+       <% for(var i = 0; i < todos.length; i++) { %>
+          <li><%= todos[i].item %></li>
+       <% } %>
     </ul>
   </div>
 </body>

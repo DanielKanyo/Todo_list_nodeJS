@@ -9,7 +9,7 @@ var app = express();
 //the project knows that we gonna use ejs for our templates
 app.set('view engine', 'ejs'); 
 
-//static files
+//static files (css, images, ...)
 //middleware
 app.use(express.static('./public'));
 

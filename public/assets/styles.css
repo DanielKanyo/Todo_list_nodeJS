@@ -8,6 +8,9 @@ html, body {
   background: #333333;
   height: auto;
   position: relative;
+  padding-bottom: 1px;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 input[type="text"]{
@@ -20,6 +23,7 @@ input[type="text"]{
   border: 1px solid #00ffa1;
   background: #444444;
   color: #00ffa1;
+  margin-bottom: 10px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -56,12 +60,17 @@ input[type="text"]{
 ul {
   clear: both;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  margin: 9px 10px;
 }
 
 ul li {
-  width: 100%;
-  background: red;
-  
+  border-bottom: 1px solid #00ffa1;
+  color: #00ffa1;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+ul li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
 }
